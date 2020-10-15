@@ -1,0 +1,29 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'MyShoes' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  pod 'RxSwift'
+  pod 'RxCocoa'
+  pod 'Alamofire'
+  pod 'IGListKit'
+  pod 'RealmSwift'
+  pod 'Firebase/Core'
+  pod 'Firebase/Analytics'
+  pod 'KeychainSwift'
+  pod 'SwiftyJSON'
+  pod 'RxViewController'
+  pod 'SwiftyGif'
+  # Pods for MyShoes
+  target 'MyShoesTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'MyShoesUITests' do
+    # Pods for testing
+  end
+
+end
