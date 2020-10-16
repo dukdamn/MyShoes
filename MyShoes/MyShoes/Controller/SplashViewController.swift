@@ -21,13 +21,14 @@ class SplashViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        Timer.scheduledTimer(timeInterval: 3, target: self, selector: #selector(self.splashTimeOut(sender:)), userInfo: nil, repeats: false)
+        Timer.scheduledTimer(timeInterval: 0, target: self, selector: #selector(self.splashTimeOut(sender:)), userInfo: nil, repeats: false)
     }
     
     @objc func splashTimeOut(sender : Timer){
         //Check View Guide
         let mainStory:UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
-        
+        let RootView = mainStory.instantiateViewController(identifier: "LoginView") as! UINavigationController
+        UIApplication.shared.keyWindow?.rootViewController = RootView
         if defaults.bool(forKey: "viewGuide") {
             //Move Home
             if defaults.bool(forKey: "autoLogin") {
@@ -72,14 +73,14 @@ class SplashViewController: UIViewController {
                 }
             }
         }else{
-            if #available(iOS 13.0, *) {
-                let RootView = mainStory.instantiateViewController(identifier: "GuideView")
-                UIApplication.shared.keyWindow?.rootViewController = RootView
-            } else {
-                // Fallback on earlier versions
-                let RootView = mainStory.instantiateViewController(withIdentifier: "GuideView")
-                UIApplication.shared.keyWindow?.rootViewController = RootView
-            }
+//            if #available(iOS 13.0, *) {
+//                let RootView = mainStory.instantiateViewController(identifier: "GuideView")
+//                UIApplication.shared.keyWindow?.rootViewController = RootView
+//            } else {
+//                // Fallback on earlier versions
+//                let RootView = mainStory.instantiateViewController(withIdentifier: "GuideView")
+//                UIApplication.shared.keyWindow?.rootViewController = RootView
+//            }
         }
     }
 

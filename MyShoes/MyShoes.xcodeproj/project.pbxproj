@@ -17,11 +17,11 @@
 		6F3ADCB62538794C008AAA9E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F3ADCB42538794C008AAA9E /* LaunchScreen.storyboard */; };
 		6F3ADCC12538794C008AAA9E /* MyShoesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F3ADCC02538794C008AAA9E /* MyShoesTests.swift */; };
 		6F3ADCCC2538794C008AAA9E /* MyShoesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F3ADCCB2538794C008AAA9E /* MyShoesUITests.swift */; };
-		6F3ADCDF25388B98008AAA9E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6F3ADCDE25388B98008AAA9E /* GoogleService-Info.plist */; };
 		6F3ADD042538BE26008AAA9E /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F3ADD032538BE26008AAA9E /* APIManager.swift */; };
 		6F3ADD2E2538BF2E008AAA9E /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F3ADD2D2538BF2E008AAA9E /* User.swift */; };
 		6F3ADD362538C2D4008AAA9E /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F3ADD352538C2D4008AAA9E /* SplashViewController.swift */; };
 		6F3ADD572538C972008AAA9E /* IntroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F3ADD562538C972008AAA9E /* IntroViewController.swift */; };
+		6F4FA9A02538CF5300E874F4 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6F4FA99F2538CF5300E874F4 /* GoogleService-Info.plist */; };
 		7A122A64D4BB0074A4D3D705 /* Pods_MyShoes_MyShoesUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6A42C73FB7AF20A8F93C3C1 /* Pods_MyShoes_MyShoesUITests.framework */; };
 		A42D32A0AFDDE5B6628A9B4C /* Pods_MyShoesTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F871612439927EC4B6B1BBBC /* Pods_MyShoesTests.framework */; };
 /* End PBXBuildFile section */
@@ -60,11 +60,12 @@
 		6F3ADCC72538794C008AAA9E /* MyShoesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyShoesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F3ADCCB2538794C008AAA9E /* MyShoesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyShoesUITests.swift; sourceTree = "<group>"; };
 		6F3ADCCD2538794C008AAA9E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6F3ADCDE25388B98008AAA9E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		6F3ADD032538BE26008AAA9E /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
 		6F3ADD2D2538BF2E008AAA9E /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		6F3ADD352538C2D4008AAA9E /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
 		6F3ADD562538C972008AAA9E /* IntroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroViewController.swift; sourceTree = "<group>"; };
+		6F4FA99F2538CF5300E874F4 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		6F4FA9A42538D22C00E874F4 /* MyShoesDebug.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MyShoesDebug.entitlements; sourceTree = "<group>"; };
 		8430CAA72CCA7E667EBD0D96 /* Pods-MyShoesTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyShoesTests.release.xcconfig"; path = "Target Support Files/Pods-MyShoesTests/Pods-MyShoesTests.release.xcconfig"; sourceTree = "<group>"; };
 		88E65AE158821B06957318F0 /* Pods-MyShoes.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyShoes.release.xcconfig"; path = "Target Support Files/Pods-MyShoes/Pods-MyShoes.release.xcconfig"; sourceTree = "<group>"; };
 		C28DE160317A111FCFB0A303 /* Pods-MyShoesTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyShoesTests.debug.xcconfig"; path = "Target Support Files/Pods-MyShoesTests/Pods-MyShoesTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -128,6 +129,7 @@
 		6F3ADCA52538794A008AAA9E /* MyShoes */ = {
 			isa = PBXGroup;
 			children = (
+				6F4FA9A42538D22C00E874F4 /* MyShoesDebug.entitlements */,
 				6F3ADD5B2538CC82008AAA9E /* Support */,
 				6F3ADCFF2538BD13008AAA9E /* APIManger */,
 				6F3ADD022538BD6D008AAA9E /* ViewModel */,
@@ -138,7 +140,7 @@
 				6F3ADCAC2538794A008AAA9E /* Main.storyboard */,
 				6F3ADCB22538794C008AAA9E /* Assets.xcassets */,
 				6F3ADCB42538794C008AAA9E /* LaunchScreen.storyboard */,
-				6F3ADCDE25388B98008AAA9E /* GoogleService-Info.plist */,
+				6F4FA99F2538CF5300E874F4 /* GoogleService-Info.plist */,
 				6F3ADCB72538794C008AAA9E /* Info.plist */,
 				6F3ADCAF2538794A008AAA9E /* MyShoes.xcdatamodeld */,
 			);
@@ -351,7 +353,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6F3ADCB62538794C008AAA9E /* LaunchScreen.storyboard in Resources */,
-				6F3ADCDF25388B98008AAA9E /* GoogleService-Info.plist in Resources */,
+				6F4FA9A02538CF5300E874F4 /* GoogleService-Info.plist in Resources */,
 				6F3ADCB32538794C008AAA9E /* Assets.xcassets in Resources */,
 				6F3ADCAE2538794A008AAA9E /* Main.storyboard in Resources */,
 			);
@@ -665,8 +667,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MyShoes/MyShoesDebug.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = VR4RJ5PZHH;
+				DEVELOPMENT_TEAM = G4MM77V7NH;
 				INFOPLIST_FILE = MyShoes/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
