@@ -9,6 +9,7 @@ target 'MyShoes' do
   pod 'RxCocoa'
   pod 'Alamofire'
   pod 'IGListKit'
+  pod 'RxIGListKit'
   pod 'RealmSwift'
   pod 'Firebase/Core'
   pod 'Firebase/Analytics'

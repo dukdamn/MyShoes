@@ -1,5 +1,5 @@
 PODS:
-  - Alamofire (5.2.2)
+  - Alamofire (5.3.0)
   - Firebase/Analytics (6.34.0):
     - Firebase/Core
   - Firebase/Core (6.34.0):
@@ -67,14 +67,17 @@ PODS:
   - nanopb/decode (1.30906.0)
   - nanopb/encode (1.30906.0)
   - PromisesObjC (1.2.11)
-  - Realm (5.4.8):
-    - Realm/Headers (= 5.4.8)
-  - Realm/Headers (5.4.8)
-  - RealmSwift (5.4.8):
-    - Realm (= 5.4.8)
+  - Realm (10.0.0):
+    - Realm/Headers (= 10.0.0)
+  - Realm/Headers (10.0.0)
+  - RealmSwift (10.0.0):
+    - Realm (= 10.0.0)
   - RxCocoa (5.1.1):
     - RxRelay (~> 5)
     - RxSwift (~> 5)
+  - RxIGListKit (2.0.1):
+    - IGListKit (~> 4.0.0)
+    - RxCocoa (~> 5.0)
   - RxRelay (5.1.1):
     - RxSwift (~> 5)
   - RxSwift (5.1.1)
@@ -92,6 +95,7 @@ DEPENDENCIES:
   - KeychainSwift
   - RealmSwift
   - RxCocoa
+  - RxIGListKit
   - RxSwift
   - RxViewController
   - SwiftyGif
@@ -116,6 +120,7 @@ SPEC REPOS:
     - Realm
     - RealmSwift
     - RxCocoa
+    - RxIGListKit
     - RxRelay
     - RxSwift
     - RxViewController
@@ -123,7 +128,7 @@ SPEC REPOS:
     - SwiftyJSON
 
 SPEC CHECKSUMS:
-  Alamofire: 814429acc853c6c54ff123fc3d2ef66803823ce0
+  Alamofire: 2c792affbdc2f18016e08fdbcacd60aebe1ba593
   Firebase: c23a36d9e4cdf7877dfcba8dd0c58add66358999
   FirebaseAnalytics: 3bb096873ee0d7fa4b6c70f5e9166b6da413cc7f
   FirebaseCore: d3a978a3cfa3240bf7e4ba7d137fdf5b22b628ec
@@ -137,15 +142,16 @@ SPEC CHECKSUMS:
   KeychainSwift: a06190cf933ad46b1e0abc3d77d29c06331715c7
   nanopb: 59317e09cf1f1a0af72f12af412d54edf52603fc
   PromisesObjC: 8c196f5a328c2cba3e74624585467a557dcb482f
-  Realm: 042bbb59227a0159eda397b8a5a49fbd67495ce7
-  RealmSwift: 15ddd6b3398ebfc99810811c44f095df1313adb3
+  Realm: 5654b8e5e45034d07b219e089034be2ef7d1e7bf
+  RealmSwift: 5b4c8c85be4c14ff52054a4d80a8d338167dd79c
   RxCocoa: 32065309a38d29b5b0db858819b5bf9ef038b601
+  RxIGListKit: ff1a7e83e98bedb3aa1546744f96b8ffaa4fd222
   RxRelay: d77f7d771495f43c556cbc43eebd1bb54d01e8e9
   RxSwift: 81470a2074fa8780320ea5fe4102807cb7118178
   RxViewController: 7330a46e5c31cd680db169da4c9fc8676e975a81
   SwiftyGif: e466e86c660d343357ab944a819a101c4127cb40
   SwiftyJSON: 36413e04c44ee145039d332b4f4e2d3e8d6c4db7
 
-PODFILE CHECKSUM: e796a38a9e421279692c993dab3761ab5fb52d22
+PODFILE CHECKSUM: 93b665a1d29977df0deb7f0f9dd7496df793efac
 
 COCOAPODS: 1.8.4
