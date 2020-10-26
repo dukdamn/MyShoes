@@ -22,6 +22,7 @@
 		6F3ADD362538C2D4008AAA9E /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F3ADD352538C2D4008AAA9E /* SplashViewController.swift */; };
 		6F3ADD572538C972008AAA9E /* IntroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F3ADD562538C972008AAA9E /* IntroViewController.swift */; };
 		6F4FA9A02538CF5300E874F4 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6F4FA99F2538CF5300E874F4 /* GoogleService-Info.plist */; };
+		6F9304722546D3D20025C9A6 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F9304712546D3D20025C9A6 /* WebViewController.swift */; };
 		7A122A64D4BB0074A4D3D705 /* Pods_MyShoes_MyShoesUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6A42C73FB7AF20A8F93C3C1 /* Pods_MyShoes_MyShoesUITests.framework */; };
 		A42D32A0AFDDE5B6628A9B4C /* Pods_MyShoesTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F871612439927EC4B6B1BBBC /* Pods_MyShoesTests.framework */; };
 /* End PBXBuildFile section */
@@ -66,6 +67,7 @@
 		6F3ADD562538C972008AAA9E /* IntroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroViewController.swift; sourceTree = "<group>"; };
 		6F4FA99F2538CF5300E874F4 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		6F4FA9A42538D22C00E874F4 /* MyShoesDebug.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MyShoesDebug.entitlements; sourceTree = "<group>"; };
+		6F9304712546D3D20025C9A6 /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
 		8430CAA72CCA7E667EBD0D96 /* Pods-MyShoesTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyShoesTests.release.xcconfig"; path = "Target Support Files/Pods-MyShoesTests/Pods-MyShoesTests.release.xcconfig"; sourceTree = "<group>"; };
 		88E65AE158821B06957318F0 /* Pods-MyShoes.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyShoes.release.xcconfig"; path = "Target Support Files/Pods-MyShoes/Pods-MyShoes.release.xcconfig"; sourceTree = "<group>"; };
 		C28DE160317A111FCFB0A303 /* Pods-MyShoesTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyShoesTests.debug.xcconfig"; path = "Target Support Files/Pods-MyShoesTests/Pods-MyShoesTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -178,6 +180,7 @@
 				6F3ADCAA2538794A008AAA9E /* ViewController.swift */,
 				6F3ADD352538C2D4008AAA9E /* SplashViewController.swift */,
 				6F3ADD562538C972008AAA9E /* IntroViewController.swift */,
+				6F9304712546D3D20025C9A6 /* WebViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -484,6 +487,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6F3ADCB12538794A008AAA9E /* MyShoes.xcdatamodeld in Sources */,
+				6F9304722546D3D20025C9A6 /* WebViewController.swift in Sources */,
 				6F3ADCAB2538794A008AAA9E /* ViewController.swift in Sources */,
 				6F3ADD2E2538BF2E008AAA9E /* User.swift in Sources */,
 				6F3ADD042538BE26008AAA9E /* APIManager.swift in Sources */,
