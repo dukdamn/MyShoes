@@ -45,43 +45,24 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LoginBG" translatesAutoresizingMaskIntoConstraints="NO" id="3w1-Ac-qUO">
-                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
-                            </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="MyShoes" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5tM-5m-apB">
-                                <rect key="frame" x="104" y="106" width="206" height="60"/>
-                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="50"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="If you're looking for  a place to smoke, please log in" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="K8B-VO-eSC">
-                                <rect key="frame" x="70" y="376" width="276" height="115"/>
-                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="32"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Zir-Jq-DV3">
+                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Zir-Jq-DV3">
                                 <rect key="frame" x="0.0" y="639.5" width="414" height="80"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="80" id="FuH-5d-y9U"/>
-                                    <constraint firstAttribute="width" constant="414" id="LcR-3K-h33"/>
-                                </constraints>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </stackView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="shoe-rack" translatesAutoresizingMaskIntoConstraints="NO" id="Jws-CX-No5">
+                                <rect key="frame" x="87" y="259" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="MyShoes" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5tM-5m-apB">
+                                <rect key="frame" x="104" y="442" width="206" height="60"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="50"/>
+                                <color key="textColor" red="0.28603819009999998" green="0.6605074406" blue="0.56469786170000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="highlightedColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="lI3-VC-KmB"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                        <constraints>
-                            <constraint firstItem="lI3-VC-KmB" firstAttribute="bottom" secondItem="3w1-Ac-qUO" secondAttribute="bottom" id="5mT-mU-Tkt"/>
-                            <constraint firstItem="K8B-VO-eSC" firstAttribute="centerY" secondItem="3w1-Ac-qUO" secondAttribute="centerY" id="Djt-tF-5d2"/>
-                            <constraint firstItem="5tM-5m-apB" firstAttribute="centerX" secondItem="3w1-Ac-qUO" secondAttribute="centerX" id="HSq-8L-6SK"/>
-                            <constraint firstItem="3w1-Ac-qUO" firstAttribute="leading" secondItem="lI3-VC-KmB" secondAttribute="leading" id="Lvf-8K-aRc"/>
-                            <constraint firstItem="3w1-Ac-qUO" firstAttribute="top" secondItem="lI3-VC-KmB" secondAttribute="top" id="etY-61-1G8"/>
-                            <constraint firstItem="K8B-VO-eSC" firstAttribute="centerX" secondItem="3w1-Ac-qUO" secondAttribute="centerX" id="kFU-Yd-Yo4"/>
-                            <constraint firstItem="Zir-Jq-DV3" firstAttribute="centerY" secondItem="3w1-Ac-qUO" secondAttribute="centerY" multiplier="1.5" id="kjP-7s-Fm7"/>
-                            <constraint firstItem="lI3-VC-KmB" firstAttribute="trailing" secondItem="3w1-Ac-qUO" secondAttribute="trailing" id="nvV-gN-lKR"/>
-                            <constraint firstItem="Zir-Jq-DV3" firstAttribute="centerX" secondItem="3w1-Ac-qUO" secondAttribute="centerX" id="oCO-ES-s3e"/>
-                            <constraint firstItem="5tM-5m-apB" firstAttribute="centerY" secondItem="3w1-Ac-qUO" secondAttribute="centerY" multiplier="0.3" id="tjZ-o6-ZuA"/>
-                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="iD2-Mo-6Cs"/>
                     <nil key="simulatedTopBarMetrics"/>
@@ -91,7 +72,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="QAT-qS-k8v" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1202.8985507246377" y="807.58928571428567"/>
+            <point key="canvasLocation" x="1197" y="808"/>
         </scene>
         <!--Item 2-->
         <scene sceneID="UC8-Ov-VYw">
@@ -161,7 +142,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="LoginBG" width="375" height="812"/>
+        <image name="shoe-rack" width="128" height="128"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
