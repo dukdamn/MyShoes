@@ -19,8 +19,6 @@ struct User: Codable {
     }
 }
 
-
-
 class UserData {
     static let shared = UserData()
     var user: User!
