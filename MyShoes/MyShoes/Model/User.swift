@@ -37,7 +37,6 @@ class JSONNull: Codable, Hashable {
     return 0
   }
   
-    
   public init() {}
   
   public required init(from decoder: Decoder) throws {
