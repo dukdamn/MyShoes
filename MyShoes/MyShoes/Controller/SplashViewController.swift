@@ -27,6 +27,8 @@ class SplashViewController: UIViewController {
     
     
     
+    
+    
     @objc func splashTimeOut(sender : Timer){
         //Check View Guide
         let mainStory:UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
