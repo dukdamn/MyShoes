@@ -23,8 +23,7 @@ class SplashViewController: UIViewController {
         Timer.scheduledTimer(timeInterval: 0, target: self, selector: #selector(self.splashTimeOut(sender:)), userInfo: nil, repeats: false)
     }
     
-    
-    
+
     
     @objc func splashTimeOut(sender : Timer){
         //Check View Guide
